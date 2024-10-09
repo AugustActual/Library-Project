@@ -272,18 +272,20 @@ section.home {
     text-align: center; /* Center text in the tab */
     transition: background-color 0.3s; /* Smooth transition for hover effects */
 }
+.tab:focus{
+    background-color: #20b6b6; /* Darker background for the active tab */
+    border-color: #b8dff1; /* Match border color to the active background */
+    color: white; /* White text for the active tab */
+    border-bottom: 4px solid #110901; /* Bottom border to highlight active tab */
+
+}
 
 .tabs img{
     width: 50px;
     height: 50px;
 }
 
-.tab.active {
-    background-color: #20b6b6; /* Darker background for the active tab */
-    border-color: #b8dff1; /* Match border color to the active background */
-    color: white; /* White text for the active tab */
-    border-bottom: 4px solid #110901; /* Bottom border to highlight active tab */
-}
+
 
 
 .tab:hover {

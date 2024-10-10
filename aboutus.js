@@ -20,7 +20,7 @@ const observer = new IntersectionObserver((entries) => {
       }
     });
   }, {
-    threshold: 0.5 // Trigger callback when 50% of the element is visible
+    threshold: 0.3 // Trigger callback when 50% of the element is visible
   });
   
 

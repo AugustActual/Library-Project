@@ -121,6 +121,7 @@ section.home {
 
 .header .header-2 .navbar {
     text-align: center;
+    justify-content: center;
 }
 
 .header .header-2 .navbar a {
